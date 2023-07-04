@@ -10,7 +10,7 @@ services:
 
   backend:
     container_name: energyxchange-backend_backend_1 # Assigning a specific name to the backend container
-    image: energyxchange-app:latest
+    image: energyxchange-backend:latest
     ports:
       - "8080:8080"
     networks:
